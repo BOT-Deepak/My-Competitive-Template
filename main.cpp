@@ -3,15 +3,6 @@ using namespace std;
 
 #define fast ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
-template<typename... T>
-void see(T&... args) { ((cin >> args), ...);}
-template<typename... T>
-void put(T&&... args) { ((cout << args), ...);}
-template<typename... T>
-void puts(T&&... args) { ((cout << args << " "), ...);}
-template<typename... T>
-void putl(T&&... args) { ((cout << args << " "), ...); cout<<'\n';}
-
 #define int long long 
 #define ll long long
 #define all(x) x.begin(),x.end()
